@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Simple Pong Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="ui">
+        <select id="difficulty">
+            <option value="easy" selected>Easy</option>
+            <option value="medium" >Medium</option>
+            <option value="hard">Hard</option>
+        </select>
+        <button id="startBtn">Start Game</button>
+        <button id="restartBtn" style="display:block;">Restart</button>
+    </div>
+
+    <p id="statusMessage"></p>
+    <canvas id="pong" width="800" height="500" style="display:block;"></canvas>
+    <script src="game.js"></script>
+
+<!-- Original Pong Game Code before modifications/enhancements 
+    <canvas id="pong" width="800" height="500"></canvas>
+    <script src="game.js"></script>
+-->
+</body>
+</html>
